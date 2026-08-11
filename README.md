@@ -1,0 +1,16 @@
+[index.html](https://github.com/user-attachments/files/30930124/index.html)
+<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>Abid Hasan</title>
+<style>
+body{font-family:Arial,sans-serif;background:#0f172a;color:#fff;display:flex;justify-content:center;align-items:center;height:100vh;margin:0}
+.card{background:#1e293b;padding:40px;border-radius:20px;max-width:420px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+a{display:block;margin:14px;padding:14px;border-radius:10px;text-decoration:none;color:#fff;font-weight:bold}
+.l{background:#0A66C2}.w{background:#25D366}.c{background:#07C160}
+small{color:#cbd5e1}
+</style></head><body><div class='card'>
+<h1>Abid Hasan</h1><p>Textile Merchandiser</p>
+<a class='l' href='https://www.linkedin.com/in/abidhasan315/'>LinkedIn</a>
+<a class='w' href='https://wa.me/8801733036559'>WhatsApp</a>
+<a class='c' href='#' onclick="navigator.clipboard.writeText('wxid_1kvpvbsthjn122');alert('WeChat ID copied!')">Copy WeChat ID</a>
+<small>WeChat ID: wxid_1kvpvbsthjn122</small>
+</div></body></html>
