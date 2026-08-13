@@ -1,20 +1,69 @@
-<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Abid Hasan</title>
 <style>
-body{font-family:Arial,sans-serif;background:#0f172a;color:#fff;display:flex;justify-content:center;align-items:center;height:100vh;margin:0}
-.card{background:#1e293b;padding:40px;border-radius:20px;max-width:420px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.3)}
-a{display:block;margin:14px;padding:14px;border-radius:10px;text-decoration:none;color:#fff;font-weight:bold}
-.l{background:#0A66C2}.w{background:#25D366}.c{background:#07C160}
-small{color:#cbd5e1}
-.e{background:#6f42c1}.p{background:#0ea5e9}.instruction{margin:22px 0 16px;color:#cbd5e1;font-size:14px;font-weight:600;letter-spacing:.2px}
-.contact-logo{width:22px;height:22px;vertical-align:middle;margin-right:10px;object-fit:contain}
-</style></head><body><div class='card'>
-<h1>Abid Hasan</h1><p> Fabric & Apparel Merchandiser</p>
+*{box-sizing:border-box}
+body{
+  margin:0; min-height:100vh; display:flex; justify-content:center; align-items:center;
+  padding:24px; font-family:Arial,sans-serif; background:#0f172a; color:#fff;
+}
+.card{
+  width:100%; max-width:400px; padding:30px 28px 28px; text-align:center;
+  background:#1e293b; border-radius:20px; box-shadow:0 12px 35px rgba(0,0,0,.35);
+}
+.profile-photo{
+  width:125px; height:125px; object-fit:cover; display:block; margin:0 auto 18px;
+  border-radius:50%; border:4px solid #fff; box-shadow:0 6px 18px rgba(0,0,0,.3);
+}
+h1{margin:0 0 8px;font-size:32px}
+.role{margin:0 0 22px;font-size:16px}
+a{
+  display:flex; align-items:center; justify-content:center; gap:9px;
+  margin:14px 0; padding:14px; border-radius:10px;
+  color:#fff; text-decoration:none; font-weight:bold;
+}
+.contact-logo{width:22px;height:22px;object-fit:contain}
+.cell{background:#0ea5e9}
+.whatsapp{background:#25D366}
+.wechat{background:#07C160}
+.email{background:#6f42c1}
+.instruction{margin:20px 0 0;color:#cbd5e1;font-size:14px;font-weight:600}
+</style>
+</head>
+<body>
+<div class="card">
 
+  <!-- Your photo appears above Abid Hasan -->
+  <img class="profile-photo" src="profile.jpg" alt="Abid Hasan">
 
-<a class='p' href='tel:+8801733036559'>📱 +880 1733 036559</a>
-<a class='w' href='https://wa.me/8801733036559'><img class='contact-logo' src='https://cdn.simpleicons.org/whatsapp/ffffff' alt='WhatsApp logo'>WhatsApp</a>
-<a class='c' href='#' onclick="navigator.clipboard.writeText('wxid_1kvpvbsthjn122');alert('WeChat ID copied!')"><img class='contact-logo' src='https://cdn.simpleicons.org/wechat/ffffff' alt='WeChat logo'>WeChat</a>
-<a class='e' href='mailto:abid@jmresource.com'><img class='contact-logo' src='https://cdn.simpleicons.org/gmail/ffffff' alt='Email logo'>Email</a><p class='instruction'>Choose your preferred way to connect with me</p>
-<small></small><br><small></small>
-</div></body></html>
+  <h1>Abid Hasan</h1>
+  <p class="role">Fabric &amp; Apparel Merchandiser</p>
+
+  <a class="cell" href="tel:+8801733036559">
+    <img class="contact-logo" src="https://cdn.simpleicons.org/phone/ffffff" alt="">
+    +880 1733 036559
+  </a>
+
+  <a class="whatsapp" href="https://wa.me/8801733036559">
+    <img class="contact-logo" src="https://cdn.simpleicons.org/whatsapp/ffffff" alt="">
+    WhatsApp
+  </a>
+
+  <a class="wechat" href="#" onclick="navigator.clipboard.writeText('wxid_1kvpvbsthjn122');alert('WeChat ID copied!');return false;">
+    <img class="contact-logo" src="https://cdn.simpleicons.org/wechat/ffffff" alt="">
+    WeChat
+  </a>
+
+  <a class="email" href="mailto:abid@jmresource.com">
+    <img class="contact-logo" src="https://cdn.simpleicons.org/gmail/ffffff" alt="">
+    Email
+  </a>
+
+  <p class="instruction">Choose your preferred way to connect with me</p>
+</div>
+</body>
+</html>
